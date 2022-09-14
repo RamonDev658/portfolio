@@ -19,6 +19,6 @@ header p {
   margin: 440px 0 0 50px;
 }
 main div {
-  position: relative;
+ margin-bottom: -400px;
   
 }
