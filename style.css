@@ -18,3 +18,7 @@ header p {
   font-size: 1em;
   margin: 440px 0 0 50px;
 }
+main div {
+  position: relative;
+  
+}
