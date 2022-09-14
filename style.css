@@ -1,0 +1,20 @@
+body {
+  display: block;
+d
+}
+
+header {
+  display:flex;
+
+}
+header h2 {
+  font-family:'Fira Code', 'Times New Roman', Times, serif;
+  font-size: 3em;
+  margin-top: 400px
+  ;
+}
+header p {
+  font-family:'Fira Code', 'Times New Roman', Times, serif;
+  font-size: 1em;
+  margin: 440px 0 0 50px;
+}
