@@ -1,24 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
 body {
-  display: block;
-d
-}
+background:linear-gradient(45deg, rgb(85, 142, 223) 0%, rgb(75, 45, 158));
 
+
+}
 header {
-  display:flex;
-
+  background: #000;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 90px;
+ 
 }
-
-header h2 {
-  font-family:'Fira Code', 'Times New Roman', Times, serif;
-  font-size: 3em;
-  margin-top: 400px;
+header img {
+  height: 90px;
+  width: 150px;
+  
 }
-header p {
-  font-family:'Fira Code', 'Times New Roman', Times, serif;
-  font-size: 1em;
-  margin: 440px 0 0 50px;
+header .bar  {
+  color: #fff;
+  display: flex;
+  align-items: center
 }
-main div {
- margin-bottom: -400px;
+header ul {
+  font-size: 2rem;
+  
+  display: flex;
+  justify-content: ;
+}
+header li {
+  list-style-type: none;
+  justify-content: space-around;
+ 
   
 }
