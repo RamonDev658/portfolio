@@ -1,0 +1,18 @@
+.projetos > div {
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.projetos div > div {
+  width: 210px;
+  height: 220px;
+  background-color: rgba(46, 1, 85, 0.859);
+}
+.picprojetos img {
+  width: 200px;
+  height: 200px;
+}
+.picprojetos p {
+  color: #fff;
+}
