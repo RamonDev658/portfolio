@@ -29,6 +29,7 @@ a {
 }
 .menu {
   display: flex;
+  max-width: 700px;
 }
 
 .menu li {
@@ -37,10 +38,12 @@ a {
 .menu li a {
   display: block;
   padding: 1rem;
- }
+    
+}
  .menu li a:hover {
   color:rgb(85, 142, 223)
- }
+  
+}
  /*Main */
  .presentation {
    display: flex;
@@ -50,40 +53,30 @@ a {
 }
 .presentation h1 {
    font-size: 4rem;
-   position: absolute;
    align-self: center;
-   margin-left: 100px;
+   
+ 
   
-}
-.presentation span {
-  font-size: 2rem;
-  margin-left: 50px;
 }
 .presentation div {
  display: flex;
- flex-direction: column;
- justify-content: center;
- width: 800px;
-
+ align-items: end;
+  
 }
+.facepic {
+ width:  500px;
+ height: 500px;
+}
+
 .sobre {
-  display: grid;
-  grid-template-columns: 1fr,2fr;
+  display:flex;
   justify-content: space-between;
   align-items: center;
   border-top: 60px solid transparent;
-  
 }
-.sobre div {
-  
-  
-}
-
 .sobre h2 {
  font-size: 3rem;
  padding-left: 60px;
-
-
 }
 .sobre  p {
   font-size: 2rem;
@@ -91,9 +84,33 @@ a {
   border-top: 40px  solid transparent;
   padding-left: 80px;
 }
+.projetos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px
+}
+.projetos > div {
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.projetos div > div {
+  width: 210px;
+  height: 220px;
+  background-color: #000;
+}
+.picprojetos img {
+  width: 200px;
+  height: 200px;
+}
+.picprojetos p {
+  color: #fff;
+}
+
+
 
 /*rodapé*/
 
 footer {
-  
+  background: rgb(155, 32, 32);
 }
