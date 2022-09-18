@@ -1,8 +1,17 @@
+* {
+  padding: 0;
+  
+}
+body {
+  background:#3785bb;
+}
+
 .projetos > div {
 
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
+  height: 60vh;
 }
 .projetos div > div {
   width: 210px;
@@ -13,6 +22,24 @@
   width: 200px;
   height: 200px;
 }
+.picprojetos img:hover{
+  width: 220px;
+  height: 220px;
+}
 .picprojetos p {
   color: #fff;
+}
+
+footer {
+  background: rgb(15, 18, 26);
+  height: 70px;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100vw;
+  margin-left: 0;
+  padding-left: 0;
+}
+footer div  {
+  padding: 20px;
 }
