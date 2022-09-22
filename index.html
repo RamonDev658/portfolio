@@ -1,75 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>PortFolio Dev658</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <a href="/index.html"><img  src="img/logop.webp" alt=""></a>
-      <nav>
-        <ul class="menu" >
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>        
-        </ul>
-      </nav>
-     </header>
-    <main>
-      <section class="presentation">
-        <h1 id="main-text" >Olá, sou Ramon Silva, Desenvolvedor FrontEnd</h1>
-        <div>
-          <img class="icon" alt="RS-HTML" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-          <img class="icon" alt="RS-CSS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-          <img class="icon" alt="RS-Js" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-          <img class="icon" alt="RS-React" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-          <img src="img/under_construction_PA_300_wht.gif" height="50" width="50"  alt="gif under construction"> 
-        </div>
-        <img class='facepic' src="/img/perfil1.2.png" alt="foto" />
-          
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>PortFolio Dev658</title>
+</head>
 
-      <section class="sobre" id="sobre">
-        <div>
-          <h2>Sobre</h2>
-          <p>Sou militar há 20 anos.Comecei a estudar programação desde 2021, por hobby inicialmente, desde então não consegui mais largar, tenho aprendido cada vez mais, e quero ser um desenvolvedor fullstack.          
-          </p>     
-        </div>  
-        <img src="/img/sobre-perfil.png" alt="foto" height="700" width="700" />
-             
-      </section>
-      <section class="projetos" id="projetos">
-        <h2>Projetos</h2>
-        <div class="picprojetos">
-          <div>
-            <a href="/pages/projetos.html"><img src="/img/2.webp" alt=""></a>
-            <p>projeto 1</p>
-          </div>
-          <div>
-            <a href="/pages/projetos.html"><img src="/img/1.webp" alt=""></a>
-            <p>projeto 2</p>
-          </div>
-          <div>
-            <a href="/pages/projetos.html"><img src="/img/3.webp" alt=""></a>
-            <p>projeto 3</p>
-          </div>
-          
-        </div>
+<body>
+  <header class="container">
+    <a href="/index.html"><img src="img/1-logo150bg.png"  alt=""></a>
+    <nav>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main">
+      <h1 class="main-text">Olá, sou Ramon Silva, Desenvolvedor FrontEnd</h1>
+      <div  class="hello">
+        
+        <img class="icon" alt="code-pic" height="50" width="50"
+          src="img/code.png">
+        <img class="icon" alt="html-pic" height="50" width="50"
+          src="img/html.png">
+        <img class="icon" alt="css-pic" height="50" width="50"
+          src="img/css.png">
+        <img class="icon" alt="js-pic" height="50" width="50"
+          src="img/javascript.png">
+        <img class="icon" alt="codeoff-pic" height="50" width="50"
+          src="img/codeoff.png">
+        
+      </div>
+      <div class="image-container"><img src="img/perfil3.png" alt="foto" /></div>
 
-      </section>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <h2>Sobre</h2>
+      <div class="borderleft">
        
-    <script src="script.js">
-
-    </script>   
-    </main>
-    <footer>
+        <p>Sou militar há 20 anos.Comecei a estudar programação desde 2021, por hobby inicialmente, desde então não
+          consegui mais largar, tenho aprendido cada vez mais, e quero ser um desenvolvedor fullstack.
+        </p>
+      </div>
       <div>
-        <p>Dev658-2020-CopyRight&copy;</p>
-      </div>         
-    </footer>
-  </body>
+        <img src="/img/aboutme.png" alt="foto" />
+      </div>
+
+    </section>
+    <section class="projetos" id="projetos">
+      <h2>Projetos</h2>
+      <div class="picprojetos">
+        <div>
+          <a href="/pages/projetos.html">
+            <img src="/img/proj1.webp" alt="">
+            <p>projeto 1</p>
+          </a>
+          
+        </div>
+        <div>
+          <a href="/pages/projetos.html">
+            <img src="/img/proj2.webp" alt="">
+            <p>projeto 2</p>
+          </a>
+          
+        </div>
+        <div>
+          <a href="/pages/projetos.html">
+            <img src="/img/proj3.webp" alt="">
+            <p>projeto 3</p>
+          </a>
+          
+        </div>
+
+      </div>
+
+    </section>
+    <section class="contato">
+      <h2 id="contato">Contato</h2>
+      <div>
+        <a href=""><img src="img/github.png" alt="link-github"></img></a>
+        <a href=""><img src="img/instagram.png" alt="link-instagram"></a></img>
+        <a href=""><img src="img/whatsapp.png" alt="link-whatsapp"></a></img>
+      </div>
+    </section>
+
+   
+  </main>
+  <footer>
+    <div>
+      <p>Dev658-2020-CopyRight&copy;</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
